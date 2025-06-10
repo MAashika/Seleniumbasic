@@ -31,6 +31,7 @@ public class formfill {
         obj.findElementById("checkbox1").click();
         obj.findElementById("checkbox2").click();
         obj.findElementById("checkbox3").click();
+        System.out.println(obj.getTitle());
         
       
         
